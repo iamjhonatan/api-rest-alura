@@ -11,13 +11,6 @@
     <list default="true" id="c0c3f838-a89e-4b9f-b5dc-700bc2d5143c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoviesAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoviesAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoviesAPI/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/Controllers/MovieController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/bin/Debug/net6.0/MoviesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/bin/Debug/net6.0/MoviesAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/bin/Debug/net6.0/MoviesAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/bin/Debug/net6.0/MoviesAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/ref/MoviesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/ref/MoviesAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/refint/MoviesAPI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/refint/MoviesAPI.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/staticwebassets.pack.sentinel" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648402774478</updated>
-      <workItem from="1648402817670" duration="6823000" />
+      <workItem from="1648402817670" duration="7488000" />
     </task>
     <servers />
   </component>

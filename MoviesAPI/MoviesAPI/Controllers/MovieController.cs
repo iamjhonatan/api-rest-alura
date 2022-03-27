@@ -10,21 +10,26 @@ public class MovieController : ControllerBase
     private static List<Movie> movies = new List<Movie>();
     
     [HttpPost]
-    public void AddMovie([FromBody] Movie movie)
+    public IActionResult AddMovie([FromBody] Movie movie)
     {
         movie.Id = Guid.NewGuid();
         movies.Add(movie);
+        return CreatedAtAction(nameof(GetMovieById), new { movie.Id }, movie);
     }
 
     [HttpGet]
-    public IEnumerable<Movie> GetMovies()
+    public IActionResult GetMovies()
     {
-        return movies;
+        return Ok(movies);
     }
 
     [HttpGet("{id:guid}")]
-    public Movie GetMovieById(Guid id)
+    public IActionResult GetMovieById(Guid id)
     {
-        return movies.FirstOrDefault(movie => movie.Id == id);
+        var movie =  movies.FirstOrDefault(movie => movie.Id == id);
+        
+        if (movie != null)
+            Ok(movie);
+        return NotFound();
     }
 }
