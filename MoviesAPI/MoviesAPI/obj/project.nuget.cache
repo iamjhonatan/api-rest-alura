@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "m7UU52CHkLY1EH6matByv80APyE39ph/ANgpp16SoSmLOnWpYmxPcKCtGj0c1M+fvwHf6ktKrQ+9uJnfWFMMLQ==",
+  "dgSpecHash": "5Z0tMFwui6KHMczLxRVZgFLGok3+xbPvW4+LFsjFH6Vv12pF9HzTlbBe/ZgcG4E4IjXkwVvymqyrudht/4Yl3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
   "logs": []
 }
