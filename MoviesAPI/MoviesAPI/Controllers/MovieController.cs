@@ -21,4 +21,10 @@ public class MovieController : ControllerBase
     {
         return movies;
     }
+
+    [HttpGet("{id:guid}")]
+    public Movie GetMovieById(Guid id)
+    {
+        return movies.FirstOrDefault(movie => movie.Id == id);
+    }
 }
