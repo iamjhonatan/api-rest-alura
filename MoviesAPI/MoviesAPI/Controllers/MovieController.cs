@@ -13,6 +13,5 @@ public class MovieController : ControllerBase
     public void AddMovie([FromBody] Movie movie)
     {
         movies.Add(movie);
-        Console.WriteLine(movie.Title);
     }
 }
