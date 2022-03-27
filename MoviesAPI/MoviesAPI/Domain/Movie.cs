@@ -4,11 +4,15 @@ namespace MoviesAPI.Domain;
 
 public class Movie
 {
+    public Guid Id { get; set; }
+
     [Required(ErrorMessage = "The Title field is required.")]
     public string Title { get; set; }
     
-    [Required(ErrorMessage = "The Genre field is required.")]
+    [StringLength(30, ErrorMessage = "The Genre field must not exceed 30 characters.")]
     public string Genre { get; set; }
+    
+    [Required(ErrorMessage = "The Director field is required.")]
     public string Director { get; set; }
     
     [Range(1, 600, ErrorMessage = "The lenght of film must be a minimum of 1 and a maximum of 600 minutes.")]

@@ -12,6 +12,13 @@ public class MovieController : ControllerBase
     [HttpPost]
     public void AddMovie([FromBody] Movie movie)
     {
+        movie.Id = Guid.NewGuid();
         movies.Add(movie);
+    }
+
+    [HttpGet]
+    public IEnumerable<Movie> GetMovies()
+    {
+        return movies;
     }
 }
