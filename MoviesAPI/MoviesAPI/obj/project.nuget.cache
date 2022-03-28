@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "8TGHI9k7eQJN+gzD7x4yDf5vIYx18ZfiAAeG0Z7kNYdESOWs45Ri5oN1ertBvDbyySip9mFtxaL4my+4MOL04Q==",
+  "dgSpecHash": "zr6UA+Gp5KPYED95B+zlpJ+5kSpppLKb9ltHafu9dycGCX5HioNcDwEHdGBD02cWyaD6IQhuvhtYe4fsIMw7+Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jhona\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\jhona\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\jhona\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

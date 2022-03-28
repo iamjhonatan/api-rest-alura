@@ -9,8 +9,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0c3f838-a89e-4b9f-b5dc-700bc2d5143c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MoviesAPI/Profiles/MovieProfile.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MoviesAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MoviesAPI/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoviesAPI/Controllers/MovieController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/Controllers/MovieController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/MoviesAPI.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/MoviesAPI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/MoviesAPI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MoviesAPI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648402774478</updated>
-      <workItem from="1648402817670" duration="15702000" />
+      <workItem from="1648402817670" duration="16591000" />
     </task>
     <servers />
   </component>
@@ -87,6 +97,17 @@
   <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
