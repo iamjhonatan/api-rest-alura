@@ -46,6 +46,7 @@ public class MovieController : ControllerBase
         var movieDto = _mapper.Map<ReadMovieDto>(movie);
 
         return Ok(movieDto);
+        
     }
 
     [HttpPut("{id:guid}")]
@@ -55,7 +56,7 @@ public class MovieController : ControllerBase
         
         if (movie is null)
             return NotFound();
-        
+
         _mapper.Map(movieDto, movie);
         _context.SaveChanges();
 
