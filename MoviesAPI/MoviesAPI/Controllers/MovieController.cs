@@ -46,7 +46,6 @@ public class MovieController : ControllerBase
         var movieDto = _mapper.Map<ReadMovieDto>(movie);
 
         return Ok(movieDto);
-        
     }
 
     [HttpPut("{id:guid}")]
