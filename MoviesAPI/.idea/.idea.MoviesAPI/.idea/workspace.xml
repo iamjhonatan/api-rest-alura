@@ -84,7 +84,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648402774478</updated>
-      <workItem from="1648402817670" duration="13742000" />
+      <workItem from="1648402817670" duration="14599000" />
     </task>
     <servers />
   </component>
@@ -96,24 +96,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/MoviesAPI/Controllers/MovieController.cs</url>
-          <line>33</line>
-          <properties documentPath="C:\Users\jhona\OneDrive\Documentos\projetos\api-rest-alura\MoviesAPI\MoviesAPI\Controllers\MovieController.cs" initialLine="33" containingFunctionPresentation="method 'GetMovieById'">
-            <startOffsets>
-              <option value="739" />
-            </startOffsets>
-            <endOffsets>
-              <option value="740" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
