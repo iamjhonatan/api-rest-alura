@@ -4,6 +4,8 @@ namespace MoviesAPI.Domain;
 
 public class Movie
 {
+    [Key]
+    [Required]
     public Guid Id { get; set; }
 
     [Required(ErrorMessage = "The Title field is required.")]

@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<MovieContext>(opts => opts
-    .UseSqlServer("Server=localhost\\SQLEXPRESS;Database=MoviesDb;Trusted_Connection=True;"));
+    .UseSqlServer("Server=localhost;Database=MoviesDb;Trusted_Connection=True;"));
 
 var app = builder.Build();
 
