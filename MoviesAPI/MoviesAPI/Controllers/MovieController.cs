@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using MoviesAPI.Data;
+using MoviesAPI.Data.Dtos;
 using MoviesAPI.Domain;
 
 namespace MoviesAPI.Controllers;
@@ -16,10 +17,19 @@ public class MovieController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult AddMovie([FromBody] Movie movie)
+    public IActionResult AddMovie([FromBody] CreateMovieDto movieDto)
     {
+        var movie = new Movie
+        {
+            Title = movieDto.Title,
+            Genre = movieDto.Genre,
+            Duration = movieDto.Duration,
+            Director = movieDto.Director
+        };
+        
         _context.Movies.Add(movie);
         _context.SaveChanges();
+        
         return CreatedAtAction(nameof(GetMovieById), new { movie.Id }, movie);
     }
 
@@ -32,25 +42,35 @@ public class MovieController : ControllerBase
     [HttpGet("{id:guid}")]
     public IActionResult GetMovieById(Guid id)
     {
-        var movie =  _context.Movies.FirstOrDefault(movie => movie.Id == id);
+        var movie = _context.Movies.FirstOrDefault(movie => movie.Id == id);
+
+        if (movie is null) return NotFound();
         
-        if (movie != null)
-            return Ok(movie);
-        return NotFound();
+        var movieDto = new ReadMovieDto
+        {
+            Id = movie.Id,
+            Title = movie.Title,
+            Director = movie.Director,
+            Duration = movie.Duration,
+            Genre = movie.Genre,
+            AppointmentTime = DateTime.Now
+        };
+
+        return Ok(movieDto);
     }
 
     [HttpPut("{id:guid}")]
-    public IActionResult UpdateMovie(Guid id, [FromBody] Movie newMovie)
+    public IActionResult UpdateMovie(Guid id, [FromBody] UpdateMovieDto movieDto)
     {
         var movie = _context.Movies.FirstOrDefault(movie => movie.Id == id);
         
         if (movie is null)
             return NotFound();
         
-        movie.Title = newMovie.Title;
-        movie.Genre = newMovie.Genre;
-        movie.Director = newMovie.Director;
-        movie.Duration = newMovie.Duration;
+        movie.Title = movieDto.Title;
+        movie.Genre = movieDto.Genre;
+        movie.Director = movieDto.Director;
+        movie.Duration = movieDto.Duration;
         _context.SaveChanges();
 
         return NoContent();
