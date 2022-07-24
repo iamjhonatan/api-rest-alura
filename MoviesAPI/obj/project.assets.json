@@ -2118,11 +2118,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI.csproj",
       "projectName": "MoviesAPI",
-      "projectPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI\\MoviesAPI.csproj",
+      "projectPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI.csproj",
       "packagesPath": "C:\\Users\\jhona\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\MoviesAPI\\obj\\",
+      "outputPath": "C:\\Users\\jhona\\OneDrive\\Documentos\\projetos\\api-rest-alura\\MoviesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jhona\\AppData\\Roaming\\NuGet\\NuGet.Config"
