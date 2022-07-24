@@ -8,101 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c0c3f838-a89e-4b9f-b5dc-700bc2d5143c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/.idea/.idea.MoviesAPI/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/.idea/.idea.MoviesAPI/.idea/projectSettingsUpdater.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/.idea/.idea.MoviesAPI/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/.idea/.idea.MoviesAPI/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MoviesAPI/.idea/.idea.MoviesAPI/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Controllers/MovieController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Data/Dtos/CreateMovieDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Data/Dtos/ReadMovieDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Data/Dtos/UpdateMovieDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Data/MovieContext.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Domain/Movie.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Migrations/20220328011557_InitialCreate.Designer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Migrations/20220328011557_InitialCreate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Migrations/MovieContextModelSnapshot.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/MoviesAPI.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Profiles/MovieProfile.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Humanizer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.Identity.Client.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.OpenApi.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/MoviesAPI.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/MoviesAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/MoviesAPI.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/MoviesAPI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/MoviesAPI.runtimeconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Security.Permissions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.GlobalUsings.g.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.AssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.genruntimeconfig.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/MoviesAPI.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/apphost.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/ref/MoviesAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/refint/MoviesAPI.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/MoviesAPI.csproj.EntityFrameworkCore.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/MoviesAPI.csproj.nuget.dgspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/MoviesAPI.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/MoviesAPI.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/project.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/rider.project.restore.info" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoviesAPI/MoviesAPI/obj/staticwebassets.pack.sentinel" beforeDir="false" />
-    </list>
+    <list default="true" id="c0c3f838-a89e-4b9f-b5dc-700bc2d5143c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -180,7 +86,7 @@
       <workItem from="1648402817670" duration="17150000" />
       <workItem from="1648498001118" duration="590000" />
       <workItem from="1648576753357" duration="4914000" />
-      <workItem from="1658702148990" duration="23000" />
+      <workItem from="1658702148990" duration="181000" />
     </task>
     <servers />
   </component>
