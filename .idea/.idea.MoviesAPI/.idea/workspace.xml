@@ -14,6 +14,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -86,7 +93,7 @@
       <workItem from="1648402817670" duration="17150000" />
       <workItem from="1648498001118" duration="590000" />
       <workItem from="1648576753357" duration="4914000" />
-      <workItem from="1658702148990" duration="181000" />
+      <workItem from="1658702148990" duration="515000" />
     </task>
     <servers />
   </component>
